@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;400&family=Edu+NSW+ACT+Foundation&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Arima', 'serif';
+    color:rgb(1, 139, 252);
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(165, 199, 243);
+}
+
+.top{
+    margin-top: 5%;
+}
+
+.tarefa{
+    margin-top:3%;
+}
+
+button{
+    border-radius:20%;
+    border: 2px solid rgb(1, 139, 252);
+    padding: 5px;
+    background-color: ghostwhite;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border: 5px;
+    border: 1px;
+    font-weight: bold;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
